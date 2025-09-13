@@ -38,9 +38,8 @@ public class wrapped {
             double actualPhoto = getPhotoMark();
             double congCoef = getCongestionCoef();
 
-
             index = congCoef * actualDeviation + actualRating + actualPhoto;
 
-            return;
+            return index;
         }
 }

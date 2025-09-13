@@ -40,12 +40,6 @@ public class wrapped {
 
             index = congCoef * actualDeviation + actualRating + actualPhoto;
 
-<<<<<<< HEAD
             return index;
         }
 }
-=======
-            return;
-        }
-}
->>>>>>> 4b3f9e197783fc304a00d5450ce61a2e276a2a84

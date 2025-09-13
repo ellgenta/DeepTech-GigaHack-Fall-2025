@@ -5,23 +5,20 @@ public class wrapped {
         private double length;
         private int placeId;
         private String streetName;
-        //private int bandwidth
+        
+        private class Quality {
+            int qualityIndex;
+            int deviationCount; //monthly average
+            int castedBalance; //average upvote - downvote i.e. upvCount + dwnCount / Count
+            
+            public double getIndex() {
+
+                return 0.0;
+            }
+
+        } 
 
         //how to get this shit?
-    }
-
-    public class Chunk {
-        int qualityIndex;
-        ChunkInfo info;
-        public class ChunkData {
-            int deviationCount;
-            int castedBalance;
-        }
-        
-        
-        //getIndex setter
-
-
     }
 
     /*

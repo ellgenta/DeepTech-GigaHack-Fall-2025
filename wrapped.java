@@ -1,17 +1,26 @@
 public class wrapped {
     public class ChunkInfo {
-    public
-        double latitude;
-        double longtitude;
-        double length;
-        int placeId;
-        String streetName;
+        private double latitude;
+        private double longtitude;
+        private double length;
+        private int placeId;
+        private String streetName;
+        //private int bandwidth
+
+        //how to get this shit?
     }
 
     public class Chunk {
-    public
         int qualityIndex;
+        ChunkInfo info;
+        public class ChunkData {
+            int deviationCount;
+            int castedBalance;
+        }
         
+        
+        //getIndex setter
+
 
     }
 
